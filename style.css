@@ -7,40 +7,40 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.25rem; /* 20px / 16px = 1.25rem */
+  font-family: Arial, Helvetica, sans-serif; /* changed font family */
+  font-size: 1rem;
   color: #333;
   background-color: #fff;
 }
 
 header {
   background-color: #fff;
-  padding: 0.625rem 0.625rem; /* 10px / 16px = 0.625rem */
+  padding: 0.5rem 0.625rem;
 }
 
 header h1 {
   margin: 0;
   padding: 0;
-  font-size: 3.75rem; /* 60px / 16px = 3.75rem */
+  font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
 }
 
 nav ul {
   list-style: none;
-  margin: 0.625rem 0; /* 10px / 16px = 0.625rem */
+  margin: 0.5rem 0;
   padding: 0;
   text-align: center;
 }
 
 nav li {
   display: inline-block;
-  margin: 0 0.625rem; /* 10px / 16px = 0.625rem */
+  margin: 0 0.5rem;
 }
 
 nav li a {
   display: block;
-  padding: 0.625rem;
+  padding: 0.5rem;
   color: #333;
   text-decoration: none;
 }
@@ -51,32 +51,25 @@ nav li a:hover {
 }
 
 .wrapper {
-  display: flex;
-  margin: 0.3125rem auto; /* 5px / 16px = 0.3125rem */
-  max-width: 62.5rem; /* 1000px / 16px = 62.5rem */
+  max-width: 960px; /* set a max width to limit the content */
+  margin: 0 auto;
+  padding: 1rem;
   background-color: #fff;
+  box-sizing: border-box; /* include padding in width */
 }
 
 main {
-  flex-basis: 60%;
-  padding: 0.3125rem; /* 5px / 16px = 0.3125rem */
-  background-color: #fff;
+  margin-right: 1rem; /* add space to the right of main content */
 }
 
 .left-sidebar, .right-sidebar {
-  flex-basis: 20%;
-  background-color: #fff;
-}
-
-.right-sidebar {
-  border-left: 0px solid #fff;
-  border-right: 0px solid #fff;
+  display: none;
 }
 
 footer {
   background-color: #fff;
   text-align: center;
-  padding: 0.3125rem; /* 5px / 16px = 0.3125rem */
+  padding: 0.5rem;
   clear: both;
-  margin-top: 0.625rem; /* 10px / 16px = 0.625rem */
+  margin-top: 1rem; /* add space between content and footer */
 }
