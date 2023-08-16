@@ -1,28 +1,33 @@
 html {
     font-family: Arial, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
     text-align: center;
-    color: Black;
+    color: #333;
     background-color: AliceBlue;
 }
 
 .wrapper {
-    max-width: 50%;
+    max-width: 1200px;
     margin: 0 auto;
-    box-sizing: border-box;
-    text-align: justify;
     padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav li a:hover {
-    background-color: Chartreuse;
+    background-color: DarkOrange;
     color: #fff;
 }
 
@@ -30,7 +35,6 @@ nav li a {
     text-decoration: none;
     color: #333;
     padding: 10px;
-    display: block;
 }
 
 body {
@@ -38,4 +42,8 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+main {
+    text-align: left;
 }
