@@ -11,13 +11,22 @@
 }
 
 /* Navbar links */
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
+.topnav ul {
+  list-style-type: none;
+  padding: 0;
   text-align: center;
-  padding: 14px 16px;
+}
+
+.topnav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.topnav a {
+  color: #f2f2f2;
   text-decoration: none;
+  padding: 14px 16px;
+  display: block;
 }
 
 /* Links - change color on hover */
@@ -30,6 +39,7 @@
 .column {
   float: left;
   width: 33.33%;
+  box-sizing: border-box;
 }
 
 /* Clear floats after the columns */
