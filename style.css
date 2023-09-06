@@ -1,3 +1,19 @@
-.body {
+/* Center the entire content and limit it to 50% of the page width */
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Style the navigation links horizontally */
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style individual navigation links */
+.nav a {
+  text-decoration: none;
+  margin-right: 10px; /* Adjust spacing between links as needed */
+  color: #333; /* Change link color as needed */.body {
   text-align: center;
 }
