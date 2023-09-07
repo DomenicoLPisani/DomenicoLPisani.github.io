@@ -3,12 +3,6 @@ container {
   margin: 0 auto;
 }
 
-*** Style the navigation links horizontally
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-
 body {
- text-align: center;
+  text-align: center;
 }
