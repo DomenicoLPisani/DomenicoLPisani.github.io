@@ -1,14 +1,14 @@
-.container {
+container {
   width: 50%;
   margin: 0 auto;
 }
 
 *** Style the navigation links horizontally
-.nav {
+nav {
   display: flex;
   justify-content: space-between;
 }
 
-.body {
+body {
  text-align: center;
 }
