@@ -1,8 +1,30 @@
-container {
+body {
+  background-color: lightblue;
   width: 50%;
-  margin: 0 auto;
+  margin: auto;
+  text-align: center;
 }
 
-body {
+h1 {
+  color: black;
   text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: left;
+}
+
+a:link, a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
 }
