@@ -34,3 +34,10 @@ ul {
   padding: 0px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+html {
+  width: 100%;
+  margin: auto;
+}
+}
