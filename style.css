@@ -31,5 +31,7 @@ a:hover, a:active {
 }
 
 ul.a {
-  list-style: none;
+  list-style-type: none; /* Remove markers */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Center the text horizontally */
 }
