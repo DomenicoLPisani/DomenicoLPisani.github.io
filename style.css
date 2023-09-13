@@ -31,5 +31,5 @@ a:hover, a:active {
 }
 
 ul.a {
-  list-style-position: outside;
+  list-style-position: inside;
 }
