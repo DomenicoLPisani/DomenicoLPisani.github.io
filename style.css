@@ -30,7 +30,7 @@ a:hover, a:active {
   background-color: orange;
 }
 
-ul.a {
+ul {
   list-style-type: none; /* Remove markers */
   padding: 0; /* Remove default padding */
   text-align: center; /* Center the text horizontally */
