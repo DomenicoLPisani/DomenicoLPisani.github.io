@@ -31,5 +31,6 @@ a:hover, a:active {
 }
 
 ul {
-  list-style-position: outside;
+  padding: 0px;
+  text-align: center;
 }
