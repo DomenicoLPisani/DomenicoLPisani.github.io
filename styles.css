@@ -37,6 +37,15 @@ li a:hover {
   background-color: tomato;
 }
 
+h2 {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+
 /* Styling for paragraphs */
 p {
   text-align: justify;
