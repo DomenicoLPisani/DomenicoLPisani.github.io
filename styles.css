@@ -1,0 +1,55 @@
+/* Resetting margin for all elements */
+* {
+  margin: 0;
+}
+
+/* Basic styling for the body */
+body {
+  background-color: lightgray;
+  font: 18px/1.5 verdana;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+/* Styling for the navigation bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: tomato;
+}
+
+/* Styling for paragraphs */
+p {
+  text-align: justify;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto; /* Centering paragraphs */
+}
+
+/* Styling for the footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 14px 16px;
+  margin-top: auto; /* Push footer to the bottom */
+  text-align: center;
+}
